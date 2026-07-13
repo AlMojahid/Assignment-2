@@ -197,3 +197,26 @@
   width: 16.px;
   height: 15.67px;
 }
+
+/* About */
+.about {
+  padding: 55px 0 35px;
+  text-align: center;
+  background: #1A0B2E;
+}
+
+.about-content {
+  max-width: 820px;
+  COLOR: #FFFFFF; 
+}
+
+.about h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 18px;
+}
+
+.about p {
+  color: #FFFFFF;
+  line-height: 1.9;
+  margin-bottom: 14px;
+}
