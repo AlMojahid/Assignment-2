@@ -250,3 +250,78 @@
   letter-spacing: 1.3px;
   color: rgba(255, 255, 255, 0.65);
 }
+
+.choose{
+  padding:100px 0;
+  background:#230E3D;
+}
+
+.choose h2{
+  text-align:center;
+  color:#FFFFFF;
+  font-size:48px;
+  margin-bottom:60px;
+}
+
+.choose-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+.card{
+  background:#301753;
+  border-radius:25px;
+  padding:35px;
+  transition:.4s;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 15px 30px rgba(0,0,0,.4);
+}
+
+.icon{
+  width:65px;
+  height:65px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+  font-size:28px;
+  margin-bottom:25px;
+}
+
+.card h3{
+  color:#fff;
+  margin-bottom:18px;
+  font-size:28px;
+}
+
+.card p{
+  color:#bdb6c8;
+  line-height:30px;
+  font-size:17px;
+}
+
+/* Grid Layout */
+
+.card1{
+  grid-row:span 2;
+}
+
+.card2{
+  grid-column:span 2;
+}
+
+.card3{
+  grid-column:span 2;
+}
+
+.card4{
+  grid-column:span 2;
+}
+
+.card5{
+  grid-row:span 1;
+}
