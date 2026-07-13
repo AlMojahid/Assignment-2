@@ -559,3 +559,171 @@
   font-size:15px;
 
 }
+
+/* Responsive */
+@media (min-width: 576px) and (max-width: 992px) {
+  .menu {
+    gap: 20px;
+  }
+
+  .wave {
+    width: 28%;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 28px;
+  }
+
+  .container {
+    width: min(92%, 960px);
+  }
+
+  .nav {
+    padding: 14px 0;
+  }
+
+  .menu {
+    gap: 18px;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    padding: 60px 0 80px;
+  }
+
+  .wave {
+    width: 30%;
+    top: 160px;
+  }
+
+  .microphone {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.8rem, 5vw, 4rem);
+  }
+
+  .hero p {
+    max-width: 620px;
+    font-size: 0.98rem;
+  }
+
+  .about {
+    padding: 45px 0 30px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+ .choose{
+   padding:70px 20px;
+  }
+
+ .choose h2{
+   font-size:38px;
+   margin-bottom:40px;
+ }
+
+ .choose-grid{
+   grid-template-columns:repeat(2,1fr);
+   gap:20px;
+  }
+
+ .card{
+   grid-column:unset;
+   grid-row:unset;
+   padding:30px;
+  }
+
+ .card h3{
+   font-size:24px;
+  }
+
+ .card p{
+   font-size:15px;
+   line-height:26px;
+  }
+
+ .icon{
+   width:55px;
+   height:55px;
+   font-size:24px;
+  }
+
+ .featured{
+   padding:70px 20px;
+  }
+
+ .section-title h2{
+   font-size:38px;
+  }
+
+ .episode-container{
+   grid-template-columns:repeat(2,1fr);
+  }
+ .episode-content h3{
+   font-size:24px;
+  }
+ 
+ .episode-img img{
+   height:190px;
+  }
+ .host{
+   padding:70px 20px;
+ }
+
+ .host h2{
+   font-size:38px;
+   margin-bottom:45px;
+  }
+
+ .host-card{
+   flex-direction:column;
+   text-align:center;
+   padding:30px;
+   gap:30px;
+  }
+
+ .host-image img{
+   width:160px;
+   height:160px;
+  }
+
+ .host-content h3{
+   font-size:32px;
+  }
+
+ .host-content p{
+   font-size:16px;
+   line-height:28px;
+  }
+
+ .social{
+   justify-content:center;
+  }
+
+ .footer{
+   padding:70px 20px;
+  }
+
+ .footer h2{
+   font-size:60px;
+  }
+
+ .footer-social{
+   gap:22px;
+  }
+
+ .footer-social a{
+   font-size:16px;
+  }
+
+ .footer p{
+   font-size:14px;
+  }
+}
