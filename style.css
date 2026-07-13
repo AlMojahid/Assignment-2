@@ -220,3 +220,33 @@
   line-height: 1.9;
   margin-bottom: 14px;
 }
+
+/* Stats */
+.stats {
+  background: #1A0B2E;
+  padding: 42px 0 80px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 38px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  color:#00FF88;
+  margin-bottom: 8px;
+}
+
+.stat-item span {
+  font-size: 0.8rem;
+  letter-spacing: 1.3px;
+  color: rgba(255, 255, 255, 0.65);
+}
